@@ -51,8 +51,8 @@ module.exports = {
     // but become dependencies of the output: they are imported from the
     // environment during runtime.
     externals: [
-        {'video.js': 'videojs'},
-        {'wavesurfer.js': 'WaveSurfer'}
+        {'video.js': 'video.js'},
+        {'wavesurfer.js': 'wavesurfer.js'}
     ],
     module: {
         rules: [
